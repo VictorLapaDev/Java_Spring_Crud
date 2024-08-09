@@ -8,7 +8,7 @@ public class Usuario {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private int senha;
+    private String senha;
     private String email;
 
 
@@ -28,11 +28,11 @@ public class Usuario {
         this.email = email;
     }
 
-    public int getSenha() {
+    public String getSenha() {
         return senha;
     }
 
-    public void setSenha(int senha) {
+    public void setSenha(String senha) {
         this.senha = senha;
     }
 
