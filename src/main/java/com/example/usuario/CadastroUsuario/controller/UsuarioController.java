@@ -22,8 +22,8 @@ public class UsuarioController {
     }
 
     @GetMapping("{id}")
-    public Usuario getById(@PathVariable Long id){
-        return repository.getById(id);
+    public Optional<Usuario> getById(@PathVariable Long id){
+        return repository.findById(id);
     }
 
     @PostMapping
