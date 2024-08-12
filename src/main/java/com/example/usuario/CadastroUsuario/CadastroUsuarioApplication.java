@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.usuario.CadastroUsuario.modal.Usuario;
 
-@SpringBootApplication(scanBasePackages = "com.example.usuario.CadastroUsuario.modal")
+@SpringBootApplication()
 public class CadastroUsuarioApplication {
 
 	public static void main(String[] args) {
