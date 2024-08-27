@@ -1,5 +1,5 @@
 ## Spring Java
-Meu primeiro projeto estudando spring com java, um projeto completo que irá se integrar a um front-end feito com react em forma de API. Este projeto também utiliza o banco de dados MySql.
+Meu primeiro projeto estudando spring com java, criando um  CRUD básico de um usuario. Este projeto utiliza o banco de dados MySql.
 
 ## Contribuição
 Projeto realizado com o intuito de praticar habilidades com o Spring, que tem foco em tecnologias como o java, e o banco de dados MySql.
